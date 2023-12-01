@@ -1,0 +1,32 @@
+{
+  "name": "my-remix-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "remix build",
+    "serve": "NODE_ENV=production remix-serve build/index.js",
+    "dev": "remix dev -c \"node server/index.mjs\""
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/cssinjs": "1.17.5",
+    "@remix-run/express": "^2.3.1",
+    "@remix-run/node": "^2.3.1",
+    "@remix-run/react": "^2.3.1",
+    "@remix-run/serve": "^2.3.1",
+    "antd": "^5.11.3",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/css-bundle": "^2.3.1",
+    "@remix-run/dev": "^2.3.1",
+    "@types/react": "^18.2.39",
+    "typescript": "^5.3.2"
+  }
+}
